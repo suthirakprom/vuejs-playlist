@@ -5,8 +5,8 @@ new Vue({
         job: 'Ninja'
     },
     methods: {
-        greet: function(time){
-            return 'Good ' + time + ', ' + this.name;
+        greet: function(time){ //here is what I call variable time 
+            return 'Good ' + time + ', ' + this.name; //we use this.name here to call out name from data.
         }
     }
 });
