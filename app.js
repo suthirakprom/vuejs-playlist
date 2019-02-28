@@ -15,7 +15,7 @@ new Vue({
             return this.b + this.age;
         }*/
     },
-    computed: {
+    computed: {                             //using computed rather than methods because this is more suitable for computing than methods
         addToA: function(){
             console.log('addToA');
             return this.a + this.age;
