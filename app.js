@@ -1,5 +1,5 @@
 Vue.component('greeting', {
-    template: '<p>Hey there, I am a re-usable component</p>'
+    template: '<p>Hey there, I am a re-usable component</p>'    //creating components for repeated uses
 });
 
 /* new Vue({
